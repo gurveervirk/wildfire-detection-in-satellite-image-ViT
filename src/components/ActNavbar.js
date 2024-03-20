@@ -25,8 +25,8 @@ const Navbar = () => {
             style={{ '--bs-scroll-height': '100px' }}
           >
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/new">
-                Upload Image
+              <Link className="nav-link text-white" to="/map">
+                Map 
               </Link>
             </li>
           </ul>
