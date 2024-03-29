@@ -1,0 +1,12 @@
+/trash
+/Model/node_modules
+/Model/venv
+/Model/local_model_directory
+/Model/index.html
+/Model/indexx.html
+/Model/cors_api.py
+/Model/mail.js
+/Model/vit-fire-detection
+/Model/assets/*.jpg
+/Model/assets/*.png
+
