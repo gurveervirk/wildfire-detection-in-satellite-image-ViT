@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg  bg-black">
       <div className="container-fluid">
         <Link className="navbar-brand active text-white" to="/">
-          Prometheans
+        <i class="mx-2 bi bi-fire"></i>Prometheans
         </Link>
         <button
           className="navbar-toggler"
@@ -25,8 +25,18 @@ const Navbar = () => {
             style={{ '--bs-scroll-height': '100px' }}
           >
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/map">
-                Map 
+              <Link className="nav-link text-white" to="/image"><i class="mx-2 bi bi-cloud-arrow-up"></i>
+                Upload Image
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white " to="/map"><i class="mx-2 bi bi-map"></i>
+                Maps
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white " to="/region"><i class="mx-2 bi bi-globe"></i>
+                Monitor Region
               </Link>
             </li>
           </ul>

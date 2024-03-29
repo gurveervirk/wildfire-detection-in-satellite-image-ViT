@@ -1,8 +1,9 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import ActivityNavbar from './ActNavbar';
+import ActivityNavbar from './Navbar';
 import IntroductionPage from './Home';
-
+import ImagePage from './Image'
 import MapWithScreenshot from './Map';
+import Region from './Region';
 
 function PreloginRoute() {
     return (
@@ -11,7 +12,9 @@ function PreloginRoute() {
                 <ActivityNavbar/>
                 <Routes>
                     <Route path='/' element={<IntroductionPage/>}/>
+                    <Route path='/image' element={<ImagePage/>}/>
                     <Route path='/map'element={<MapWithScreenshot/>} />
+                    <Route path='/region'element={<Region/>}/>
                 </Routes>
             </Router>
 
