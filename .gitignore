@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /trash
 /Model/node_modules
 /Model/venv
@@ -12,6 +13,8 @@
 /Model/assets/*.png
 
 =======
+=======
+>>>>>>> origin/master
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -35,4 +38,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> origin/master
